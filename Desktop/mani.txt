@@ -1,0 +1,5 @@
+<distributionManagement>      <snapshotRepository>    <id>nexus-snapshots</id>    <url>http://localhost:8081/repository/maven-snapshots/</url>    </snapshotRepository>        <repository>        <id>nexus-release</id>        <name>Internal Releases</name>        <url>http://localhost:8081/repository/maven-releases/</url>    </repository>  </distributionManagement>
+from Formac Inc to Everyone:
+settings.xml :
+from Formac Inc to Everyone:
+<server>  <id>nexus-snapshots</id>  <username>admin</username>  <password>admin123</password> </server>   <server>  <id>nexus-release</id>  <username>admin</username>  <password>admin123</password> </server> 
